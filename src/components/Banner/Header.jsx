@@ -1,21 +1,21 @@
 import React, { useState } from 'react'
 import styled from 'styled-components';
-import { GiCandleFlame } from "react-icons/gi";
+import { FaDev } from "react-icons/fa";
 
 const Header = () => {
     const [bar, setBar] = useState(false);
   return (
     <Container bar={bar}>
         <Logo>
-            <span className='green'><GiCandleFlame/></span>
+            <span className='green'><FaDev/></span>
             <h1>Portfolio</h1>
         </Logo>
         <Nav bar={bar}>
             <span><a href="#home">Home</a></span>
-            <span><a href="#service">Services</a></span>
+            <span><a href="#service">Skills</a></span>
             <span><a href="#project">Projects</a></span>
-            <span><a href="#client">Testimonials</a></span>
-            <span><a href="#footer">Portfolio</a></span>
+            <span><a href="#client">Recommendations</a></span>
+            <span><a href="#footer">Contact</a></span>
         </Nav>
         <div
         onClick={() => setBar(!bar)}
@@ -73,7 +73,7 @@ const Container = styled.div`
                     transition: all 400ms ease-in-out;
                 }
 
-                &::after{
+                &:::after{
                     transform: ${props => props.bar ? "rotate(-45deg)" : "translateY(-10px)"};
                     transition: all 400ms ease-in-out;
                 }
