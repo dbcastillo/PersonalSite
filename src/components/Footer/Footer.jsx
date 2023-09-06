@@ -4,10 +4,8 @@ import { MdAlternateEmail } from "react-icons/md";
 import { CgProfile } from "react-icons/cg";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { AiOutlineArrowUp} from "react-icons/ai";
-import { HiOutlineDocumentText} from "react-icons/hi";
-import { BsFacebook, BsSlack } from "react-icons/bs";
 import { FiMail, FiPhoneCall } from "react-icons/fi";
-import { Slide, Zoom, Fade } from "react-awesome-reveal";
+import { Slide, Fade } from "react-awesome-reveal";
 
 const Footer = () => {
   const scrollUp = () => {
@@ -54,11 +52,6 @@ const Footer = () => {
           </div>
         </div>
         <div className="profiles">
-          <Slide direction="left">
-            <u><a 
-            href="https://www.canva.com/design/DAFs9NoYrD4/zVIhkaQ9nuw0LtP1ukV5dw/edit?utm_content=DAFs9NoYrD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" 
-            target="_blank">Resume Link</a></u>
-          </Slide>
         </div>
         <Fade>
           <ArrowUp onClick={scrollUp}>
