@@ -1,10 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import { MdAlternateEmail } from "react-icons/md";
-import { CgProfile } from "react-icons/cg";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { AiOutlineArrowUp} from "react-icons/ai";
-import { FiMail, FiPhoneCall } from "react-icons/fi";
+import { FiPhoneCall } from "react-icons/fi";
 import { Slide, Fade } from "react-awesome-reveal";
 
 const Footer = () => {
@@ -172,58 +170,5 @@ const ArrowUp = styled.div`
     position: absolute;
     right: 3rem;
     top: 16rem;
-  }
-`;
-const Form = styled.div`
-  flex: 1;
-  h1 {
-    font-size: 1.3rem;
-    padding-bottom: 0.7rem;
-  }
-
-  form {
-    background-color: #191923;
-    padding: 0.8rem;
-    border-radius: 5px;
-    .name,
-    .email,
-    .message {
-      display: flex;
-      border: 1px solid gray;
-      margin-bottom: 0.5rem;
-      input,
-      textarea {
-        width: 100%;
-        border: none;
-        outline: none;
-        color: #fff;
-        background-color: transparent;
-        padding: 1rem 0.5rem;
-      }
-      span {
-        background-color: #3e3e3e;
-        width: 3rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      .messageIcon {
-        align-items: flex-start;
-        padding-top: 0.5rem;
-      }
-    }
-
-    button {
-      width: 5rem;
-      height: 1.8rem;
-      background-color: #01be96;
-      border: none;
-      border-radius: 5px;
-      filter: drop-shadow(0px 4px 5px #01be9551);
-      cursor: pointer;
-      :hover {
-        filter: drop-shadow(0px 6px 9px #01be9551);
-      }
-    }
   }
 `;
