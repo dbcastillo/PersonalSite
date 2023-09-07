@@ -9,28 +9,28 @@ let clients = [
     {
         name : "Ayo Jimoh",
         position : "VP of Product - managed Derick directly",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
+        img_url : "https://i.ibb.co/cXYhCDV/Ayo.png",
         stars : 5,
         disc : `...He has a willingness to learn and was able to deliver assignments across our tech stack. We set a goal for new hires to deliver a production change in their first two weeks and Derick was up for the challenge and delivered effectively...`
     },
     {
         name : "Joseph Gansukh",
         position : "Web Developer - reported directly to Derick",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
+        img_url : "https://i.ibb.co/RTVcSKj/Screen-Shot-2023-09-06-at-12-41-49-AM.png",
         stars : 5,
         disc : `...one of the most dedicated person I know. He loved to code, has a deep passion to teach others, and constantly works to improve his own skills... very approachable, funny, and has a great sense of humor`
     },
     {
         name : "Raza Jafri",
         position : "Teacher - worked with Derick on the same team",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
+        img_url : "https://i.ibb.co/rG9f9P6/Screen-Shot-2023-09-06-at-12-42-11-AM.png",
         stars : 5,
         disc : `...Derick has been a complete pleasure to work with...consistently gone above and beyone what's required of him for both his colleagues and students...has a talent for creating warm relationships...has shown ability to lead`
     },
     {
         name : "Isiah VanBrackle",
         position : "Associate Engineer - Derick's peer in coding program",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
+        img_url : "https://i.ibb.co/Kwv1D4q/Screen-Shot-2023-09-06-at-12-42-37-AM.png",
         stars : 5,
         disc : `...His positive nature made him a pillar of support...his meticulous learning process made him a reliable source of answers...was always willing to lend a helping hand...he pushed me to go further than the goals I set for myself.`
     },
