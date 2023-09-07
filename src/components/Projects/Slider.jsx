@@ -6,24 +6,29 @@ import styled from 'styled-components';
 
 let data = [
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : "https://i.ibb.co/BnmzFty/Plankclub.png",
+        disc : "Server-side social app allowing users to track/add/edit various plank exercises",
+        name: "PlankClub"
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661324074/Yt-portfolio/ui4_jku3ol.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : "https://i.ibb.co/Ny4zKGG/Flat-Longe.png",
+        disc : "Client-side social app built with React.js",
+        name: "FlatLounge"
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323981/Yt-portfolio/ui2_wtollo.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : "https://i.ibb.co/tsqX3RJ/JoinMe.png",
+        disc : "Fullstack single-page event app allowing users to view/host/attend events",
+        name: "JoinMe"
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323980/Yt-portfolio/ui3_akynn4.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+      img : "https://i.ibb.co/BnmzFty/Plankclub.png",
+      disc : "Server-side social app allowing users to track/add/edit various plank exercises",
+      name: "PlankClub"
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323979/Yt-portfolio/ui1_n3uiaz.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+      img : "https://i.ibb.co/Ny4zKGG/Flat-Longe.png",
+      disc : "Client-side social app built with React.js",
+      name: "FlatLounge"
     }
 ];
 
@@ -35,7 +40,7 @@ var settings = {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    initialSlide: 0,
+    initialSlide: 1,
     arrows : false,
     responsive: [
       {
@@ -100,9 +105,9 @@ const Buttons = styled.div`
   button{
     width: 2rem;
     height: 2rem;
-    background-color: rgba(255, 255, 255, 0.100);
+    background-color: #fff;
     cursor: pointer;
-    color: #01be96;
+    color: #000;
     border: none;
     position: absolute;
     top: 45%;

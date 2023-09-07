@@ -2,14 +2,28 @@ import React from 'react'
 import styled from 'styled-components';
 
 const Project = (props) => {
-    const { img, disc } = props.item;
+    const { img, disc, name } = props.item;
   return (
     <Container className='project'>
         <img src={img} alt="project" />
         <div className="disc">
-            <h1>Description</h1>
+            {name === "PlankClub" ?
+            <h1>PlankClub App</h1> :
+            name === "FlatLounge" ?
+            <h1>FlatLounge App</h1> :
+            <h1>JoinMe App</h1>}
             <p>{disc}
-            <a href="/">demo</a>
+            {name === "PlankClub" ? 
+            <a href="https://youtu.be/a6l_3YW39qQ?si=xO7FQfNeQuHgPO3_"
+            target="_blank"
+            rel="noreferrer">demo</a> : 
+            name === "FlatLounge" ? 
+            <a href="https://youtu.be/3UYEj0e_u4U?si=16uW-YeukRQHzwWm"
+            target="_blank"
+            rel="noreferrer">demo</a> : 
+            <a href="https://youtu.be/5qvZ9ssDsOg?si=GfJ_rB6Xdg72tBOC"
+            target="_blank"
+            rel="noreferrer">demo</a>}
             </p>
         </div>
     </Container>

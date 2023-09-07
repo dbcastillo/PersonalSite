@@ -7,8 +7,8 @@ const Projects = () => {
   return (
     <Container id='project'>
         <Zoom>
-            <h1>Recent <span className="green">Projects</span></h1>
-            <p>List of projects go here... WORK IN PROGRESS</p>
+            <h1>Previous <span className="green">Projects</span></h1>
+            <p>What I've built</p>
         </Zoom>
         <Slide>
             <SliderComp/>
