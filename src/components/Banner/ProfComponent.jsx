@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import { AiOutlineInstagram } from "react-icons/ai";
-import { GiEarthAmerica } from "react-icons/gi";
+import { GrDocumentText } from "react-icons/gr";
+import { BsGithub } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
 
@@ -22,20 +22,25 @@ const ProfComponent = () => {
             onClick={() => {document.getElementById('footer').scrollIntoView();}}
           >Let's talk</button>
           <Social>
-            <p>Check out my</p>
+            <p>My Links</p>
             <div className="social-icons">
               <span>
-                <a href="/">
-                  <AiOutlineInstagram />
+                <a href="https://www.canva.com/design/DAFs9NoYrD4/dH3K7IessWM-Qhlg4eCmFw/view?utm_content=DAFs9NoYrD4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank"
+                rel="noreferrer">
+                  <GrDocumentText />
                 </a>
               </span>
               <span>
-                <a href="/">
-                  <GiEarthAmerica />
+                <a href="https://www.github.com/dbcastillo"
+                target="_blank"
+                rel="noreferrer">
+                  <BsGithub />
                 </a>
               </span>
               <span>
-                <a href="/">
+                <a href="https://www.linkedin.com/in/dbcastillo"
+                target="_blank"
+                rel="noreferrer">
                   <FaLinkedinIn />
                 </a>
               </span>
@@ -115,7 +120,8 @@ const Social = styled.div`
   align-items: center;
   gap: 1rem;
   p {
-    font-size: 0.9rem;
+    font-size: 1.0rem;
+    font-weight: 500;
     @media (max-width: 690px) {
       font-size: 0.7rem;
     }
@@ -126,8 +132,8 @@ const Social = styled.div`
     align-items: center;
     gap: 1rem;
     span {
-      width: 2.3rem;
-      height: 2rem;
+      width: 2.8rem;
+      height: 2.5rem;
       clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
       background-color: #01be96;
       position: relative;
