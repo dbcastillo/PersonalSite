@@ -5,23 +5,18 @@ import { FaDev } from "react-icons/fa";
 const Header = () => {
     const [bar, setBar] = useState(false);
   return (
-    <Container bar={bar}>
+    <Container >
         <Logo>
             <span className='green'><FaDev/></span>
             <h1>Portfolio</h1>
         </Logo>
-        <Nav bar={bar}>
+        <Nav >
             <span><a href="#home">Home</a></span>
             <span><a href="#service">Skills</a></span>
             <span><a href="#project">Projects</a></span>
             <span><a href="#client">Recommendations</a></span>
             <span><a href="#footer">Contact</a></span>
         </Nav>
-        <div
-        onClick={() => setBar(!bar)}
-        className="bars">
-            <div className="bar"></div>
-        </div>
     </Container>
   )
 }
@@ -60,20 +55,23 @@ const Container = styled.div`
                 height: 2px;
                 background-color: ${props => props.bar ? "transparent" : "#fff"};
                 transition: all 400ms ease-in-out;
-                &::before, &::after{
+
+                &::before{
                     content: "";
                     width: 100%;
                     height: 2px;
                     background-color: #fff;
                     position: absolute;
-                }
-
-                &::before{
                     transform: ${props => props.bar ? "rotate(45deg)" : "translateY(10px)"};
                     transition: all 400ms ease-in-out;
                 }
 
                 &:::after{
+                    content: "";
+                    width: 100%;
+                    height: 2px;
+                    background-color: #fff;
+                    position: absolute;
                     transform: ${props => props.bar ? "rotate(-45deg)" : "translateY(-10px)"};
                     transition: all 400ms ease-in-out;
                 }
