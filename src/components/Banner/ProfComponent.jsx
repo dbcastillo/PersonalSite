@@ -96,7 +96,8 @@ const Texts = styled.div`
 
   button {
     padding: 0.7rem 2rem;
-    margin-top: 3rem;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
     cursor: pointer;
     background-color: #01be96;
     border: none;

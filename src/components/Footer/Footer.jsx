@@ -4,6 +4,7 @@ import { HiOutlineMailOpen } from "react-icons/hi";
 import { AiOutlineArrowUp} from "react-icons/ai";
 import { FiPhoneCall } from "react-icons/fi";
 import { Slide, Fade } from "react-awesome-reveal";
+import { FaDev } from "react-icons/fa";
 
 const Footer = () => {
   const scrollUp = () => {
@@ -35,7 +36,7 @@ const Footer = () => {
               <FiPhoneCall />
             </span>
             <Slide direction="left">
-              <a href="tel:+4733378901">312-256-6554</a>
+              <p>312-256-6554</p>
             </Slide>
           </div>
           <div>
@@ -45,7 +46,7 @@ const Footer = () => {
               </span>
             </Slide>
             <Slide>
-              <a href="mailto:miladamiri@gmail.com">me@derick.tech</a>
+              <p>me@derick.tech</p>
             </Slide>
           </div>
         </div>
@@ -57,6 +58,10 @@ const Footer = () => {
           </ArrowUp>
         </Fade>
       </Profile>
+      <Logo>
+        <span className='green'><FaDev/></span>
+        <h1>Portfolio</h1>
+      </Logo>
     </Container>
   );
 };
@@ -82,6 +87,8 @@ const Container = styled.div`
   }
 `;
 const Profile = styled.div`
+  margin: auto;
+  width: 30%;
   flex: 1;
   .address {
     padding: 1rem 0;
@@ -111,7 +118,7 @@ const Profile = styled.div`
       a {
         text-decoration: none;
         color: lightgray;
-        :hover {
+        &:hover {
           color: orange;
         }
       }
@@ -139,7 +146,7 @@ const Profile = styled.div`
         margin-right: 0.5rem;
         border-radius: 50px;
 
-        :hover {
+        &:hover {
           background-color: orange;
         }
 
@@ -165,10 +172,25 @@ const ArrowUp = styled.div`
   cursor: pointer;
   font-size: 1.3rem;
   font-weight: 700;
-  margin-top: 2rem;
+  margin-top: 4rem;
   @media (max-width: 650px) {
     position: absolute;
-    right: 3rem;
+    right: 10rem;
     top: 16rem;
   }
 `;
+
+const Logo = styled.div`
+  margin: 5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  span{
+      font-size: 1.8rem;
+  }
+
+  h1{
+      font-weight: 600;
+      font-size: 1.2rem;
+  }
+`
