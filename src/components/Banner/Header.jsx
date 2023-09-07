@@ -1,9 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styled from 'styled-components';
 import { FaDev } from "react-icons/fa";
 
 const Header = () => {
-    const [bar, setBar] = useState(false);
   return (
     <Container >
         <Logo>
