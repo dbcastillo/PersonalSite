@@ -46,7 +46,7 @@ const Footer = () => {
               </span>
             </Slide>
             <Slide>
-              <p>me@derick.tech</p>
+              <p>derick.ben.castillo@gmail.com</p>
             </Slide>
           </div>
         </div>
@@ -87,8 +87,6 @@ const Container = styled.div`
   }
 `;
 const Profile = styled.div`
-  margin: auto;
-  width: 30%;
   flex: 1;
   .address {
     padding: 1rem 0;
@@ -118,7 +116,7 @@ const Profile = styled.div`
       a {
         text-decoration: none;
         color: lightgray;
-        &:hover {
+        :hover {
           color: orange;
         }
       }
@@ -146,7 +144,7 @@ const Profile = styled.div`
         margin-right: 0.5rem;
         border-radius: 50px;
 
-        &:hover {
+        :hover {
           background-color: orange;
         }
 
@@ -167,21 +165,19 @@ const ArrowUp = styled.div`
   height: 2rem;
   background-color: #01be96;
   display: flex;
-  align-items: center;
-  justify-content: center;
   cursor: pointer;
   font-size: 1.3rem;
   font-weight: 700;
-  margin-top: 4rem;
+  margin-top: 2rem;
   @media (max-width: 650px) {
     position: absolute;
-    right: 10rem;
+    right: 3rem;
     top: 16rem;
   }
 `;
 
 const Logo = styled.div`
-  margin: 5rem;
+  padding-top: 1.5rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
