@@ -16,7 +16,7 @@ const ProfComponent = () => {
           <h1 className="green">Derick Castillo</h1>
           <h3>Fullstack Software Engineer</h3>
           <p>
-            I'm a passionate Software Engineer with 4+ years of relevant experience. My roles in various industries have developed my leadership ability and strong communication skills. When I'm not coding I like to stay active by running/lifting/hiking/rock climbing, I also enjoy playing guitar, cooking, DJ-ing, dancing, movies, and rooftops with friends. 
+            I'm a passionate Software Engineer with 4+ years of relevant experience. My roles in various industries have developed my leadership ability and strong communication skills. When I'm not coding I like to stay active by hiking/lifting/rock climbing. I also enjoy playing guitar, cooking, DJ-ing, and rooftops with friends. 
           </p>
           <button
             onClick={() => {document.getElementById('footer').scrollIntoView();}}
