@@ -20,7 +20,7 @@ const ProfComponent = () => {
           </p>
           <button
             onClick={() => {document.getElementById('footer').scrollIntoView();}}
-          >Let's talk</button>
+          >Contact me!</button>
           <Social>
             <p>My Links</p>
             <div className="social-icons">
