@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { GrDocumentText } from "react-icons/gr";
 import { BsGithub } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
+import { AiOutlineMedium } from "react-icons/ai"
 import { Slide } from "react-awesome-reveal";
 
 const ProfComponent = () => {
@@ -42,6 +43,13 @@ const ProfComponent = () => {
                 target="_blank"
                 rel="noreferrer">
                   <FaLinkedinIn />
+                </a>
+              </span>
+              <span>
+                <a href="https://medium.com/@9derick"
+                target="_blank"
+                rel="noreferrer">
+                  <AiOutlineMedium />
                 </a>
               </span>
             </div>
