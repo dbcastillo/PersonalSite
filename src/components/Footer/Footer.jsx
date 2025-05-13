@@ -24,7 +24,7 @@ const Footer = () => {
             <h1>Location:</h1>
           </Slide>
           <Slide direction="left">
-            <p>Dallas, Texas</p>
+            <p>Nashville, Tennessee</p>
           </Slide>
         </div>
         <div className="links">
