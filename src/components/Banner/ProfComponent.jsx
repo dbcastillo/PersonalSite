@@ -17,7 +17,7 @@ const ProfComponent = () => {
           <h1 className="green">Derick Castillo</h1>
           <h3>Fullstack Software Engineer</h3>
           <p>
-            I'm a passionate Software Engineer with 4+ years of relevant experience. My roles in various industries have developed my leadership ability and strong communication skills. When I'm not coding I like to stay active by hiking/lifting/rock climbing. I also enjoy playing guitar, cooking, DJ-ing, and rooftops with friends. 
+            I'm a passionate Software Engineer with 5+ years of relevant experience. My roles in various industries have developed my leadership ability and strong communication skills. My ability to quickly adapt in the midst of change, collaborate well as a team player, and learn new concepts quickly, will make me an asset across all phases of product development. 
           </p>
           <button
             onClick={() => {document.getElementById('footer').scrollIntoView();}}
@@ -26,7 +26,7 @@ const ProfComponent = () => {
             <p>My Links</p>
             <div className="social-icons">
               <span>
-                <a href="https://www.canva.com/design/DAFs9NoYrD4/dH3K7IessWM-Qhlg4eCmFw/view?utm_content=DAFs9NoYrD4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank"
+                <a href="https://www.canva.com/design/DAFs9NoYrD4/zVIhkaQ9nuw0LtP1ukV5dw/edit?utm_content=DAFs9NoYrD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank"
                 rel="noreferrer">
                   <GrDocumentText />
                 </a>
