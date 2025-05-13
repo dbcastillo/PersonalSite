@@ -11,9 +11,9 @@ let data = [
         name: "PlankClub"
     },
     {
-        img : "https://i.ibb.co/Ny4zKGG/Flat-Longe.png",
-        disc : "Client-side social app built with React.js",
-        name: "FlatLounge"
+        img : "https://dericksblogs.netlify.app/",
+        disc : "Blog site built with Vue.js",
+        name: "Derick's Blogs"
     },
     {
         img : "https://i.ibb.co/tsqX3RJ/JoinMe.png",
