@@ -161,18 +161,23 @@ const Profile = styled.div`
   }
 `;
 const ArrowUp = styled.div`
-  width: 2rem;
-  height: 2rem;
-  background-color: #01be96;
+  width: 50px;      // or whatever size you want
+  height: 50px;
+  background: #01be96;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
   cursor: pointer;
-  font-size: 1.3rem;
-  font-weight: 700;
-  margin-top: 2rem;
-  @media (max-width: 650px) {
-    position: absolute;
-    right: 3rem;
-    top: 16rem;
+  z-index: 1000;
+
+  &:hover {
+    background: #019c7a;
   }
 `;
 

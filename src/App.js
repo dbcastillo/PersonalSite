@@ -3,7 +3,7 @@ import Header from "./components/Banner/Header";
 import ProfComponent from "./components/Banner/ProfComponent";
 import Clients from "./components/Clients/Clients";
 import Footer from "./components/Footer/Footer";
-import Projects from "./components/Projects/Projects";
+import SliderComp from "./components/Projects/SliderComp";
 import Services from "./components/Service/Services";
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       </Banner>
       <Services />
       <LightColor>
-        <Projects />
+        <SliderComp />
       </LightColor>
       <Clients />
       <LightColor>

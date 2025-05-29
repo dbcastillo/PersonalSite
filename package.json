@@ -13,9 +13,11 @@
     "react-awesome-reveal": "^4.2.5",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
+    "react-multi-carousel": "^2.8.6",
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
     "styled-components": "^6.0.7",
+    "swiper": "^11.2.8",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
