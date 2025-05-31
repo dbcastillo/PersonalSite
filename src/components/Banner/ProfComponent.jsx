@@ -1,10 +1,10 @@
-import React from "react";
-import styled from "styled-components";
-import { GrDocumentText } from "react-icons/gr";
-import { BsGithub } from "react-icons/bs";
-import { FaLinkedinIn } from "react-icons/fa";
-import { AiOutlineMedium } from "react-icons/ai"
-import { Slide } from "react-awesome-reveal";
+import React from 'react';
+import styled from 'styled-components';
+import { GrDocumentText } from 'react-icons/gr';
+import { BsGithub } from 'react-icons/bs';
+import { FaLinkedinIn } from 'react-icons/fa';
+import { AiOutlineMedium } from 'react-icons/ai';
+import { Slide } from 'react-awesome-reveal';
 
 const ProfComponent = () => {
   return (
@@ -17,37 +17,55 @@ const ProfComponent = () => {
           <h1 className="green">Derick Castillo</h1>
           <h3>Fullstack Software Engineer</h3>
           <p>
-I'm a passionate Software Engineer with 5+ years of relevant experience. My roles in various industries have developed my leadership ability and strong communication skills. When I'm not coding I like to rock climb, DJ, and explore all that Nashville has to offer.          </p>
+            I'm a passionate Software Engineer with 5+ years of relevant
+            experience. My roles in various industries have developed my
+            leadership ability and strong communication skills. When I'm not
+            coding I like to rock climb, DJ, and explore all that Nashville has
+            to offer.{' '}
+          </p>
           <button
-            onClick={() => {document.getElementById('footer').scrollIntoView();}}
-          >Contact me!</button>
+            onClick={() => {
+              document.getElementById('footer').scrollIntoView();
+            }}
+          >
+            Contact me!
+          </button>
           <Social>
             <p>My Links</p>
             <div className="social-icons">
               <span>
-                <a href="https://www.canva.com/design/DAFs9NoYrD4/zVIhkaQ9nuw0LtP1ukV5dw/edit?utm_content=DAFs9NoYrD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank"
-                rel="noreferrer">
+                <a
+                  href="https://www.canva.com/design/DAFs9NoYrD4/zVIhkaQ9nuw0LtP1ukV5dw/edit?utm_content=DAFs9NoYrD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <GrDocumentText />
                 </a>
               </span>
               <span>
-                <a href="https://www.github.com/dbcastillo"
-                target="_blank"
-                rel="noreferrer">
+                <a
+                  href="https://www.github.com/dbcastillo"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <BsGithub />
                 </a>
               </span>
               <span>
-                <a href="https://www.linkedin.com/in/dbcastillo"
-                target="_blank"
-                rel="noreferrer">
+                <a
+                  href="https://www.linkedin.com/in/dbcastillo"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FaLinkedinIn />
                 </a>
               </span>
               <span>
-                <a href="https://medium.com/@9derick"
-                target="_blank"
-                rel="noreferrer">
+                <a
+                  href="https://medium.com/@9derick"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <AiOutlineMedium />
                 </a>
               </span>
@@ -57,10 +75,7 @@ I'm a passionate Software Engineer with 5+ years of relevant experience. My role
       </Slide>
       <Slide direction="right">
         <Profile>
-          <img
-            src="https://i.ibb.co/vkx01j0/face.png"
-            alt="profile"
-          />
+          <img src="https://i.ibb.co/vkx01j0/face.png" alt="profile" />
         </Profile>
       </Slide>
     </Container>
@@ -93,7 +108,7 @@ const Texts = styled.div`
   }
   h1 {
     font-size: 2rem;
-    font-family: "Secular One", sans-serif;
+    font-family: 'Secular One', sans-serif;
     letter-spacing: 2px;
   }
   h3 {
@@ -127,7 +142,7 @@ const Social = styled.div`
   align-items: center;
   gap: 1rem;
   p {
-    font-size: 1.0rem;
+    font-size: 1rem;
     font-weight: 500;
     @media (max-width: 690px) {
       font-size: 0.7rem;

@@ -1,10 +1,10 @@
-import React from "react";
-import { BsPeople } from "react-icons/bs";
-import { FiCodesandbox } from "react-icons/fi";
-import { CgWebsite } from "react-icons/cg";
-import styled from "styled-components";
-import Card from "./Card";
-import { Slide } from "react-awesome-reveal";
+import React from 'react';
+import { BsPeople } from 'react-icons/bs';
+import { FiCodesandbox } from 'react-icons/fi';
+import { CgWebsite } from 'react-icons/cg';
+import styled from 'styled-components';
+import Card from './Card';
+import { Slide } from 'react-awesome-reveal';
 
 const Services = () => {
   return (
@@ -19,21 +19,21 @@ const Services = () => {
         <Slide direction="left">
           <Card
             Icon={BsPeople}
-            title={"Customer Experience Expertise"}
+            title={'Customer Experience Expertise'}
             disc={`10+ years of customer experience/support across various industries has equipped me to collaborate effectively with others, quickly adjust to changing company needs, and learn new concepts quickly, often working in high pressure environments.`}
           />
         </Slide>
         <Slide direction="up">
           <Card
             Icon={FiCodesandbox}
-            title={"Problem-Focused, Data-Driven"}
+            title={'Problem-Focused, Data-Driven'}
             disc={`I come to you skilled at the art of applying grit and perseverance to solving technical issues, with additional experience in tackling challenges across a range of industries and positions`}
           />
         </Slide>
         <Slide direction="right">
           <Card
             Icon={CgWebsite}
-            title={"Lifelong Learner"}
+            title={'Lifelong Learner'}
             disc={`I am excited to learn new technologies, enjoy collaborating with others, and passionate about engaging in innovative ways of problem solving via productive teamwork and clean code`}
           />
         </Slide>

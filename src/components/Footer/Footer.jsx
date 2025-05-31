@@ -1,16 +1,16 @@
-import React from "react";
-import styled from "styled-components";
-import { HiOutlineMailOpen } from "react-icons/hi";
-import { AiOutlineArrowUp} from "react-icons/ai";
-import { FiPhoneCall } from "react-icons/fi";
-import { Slide, Fade } from "react-awesome-reveal";
-import { FaDev } from "react-icons/fa";
+import React from 'react';
+import styled from 'styled-components';
+import { HiOutlineMailOpen } from 'react-icons/hi';
+import { AiOutlineArrowUp } from 'react-icons/ai';
+import { FiPhoneCall } from 'react-icons/fi';
+import { Slide, Fade } from 'react-awesome-reveal';
+import { FaDev } from 'react-icons/fa';
 
 const Footer = () => {
   const scrollUp = () => {
     window.scroll({
       top: 0,
-      behavior: "smooth",
+      behavior: 'smooth',
     });
   };
   return (
@@ -50,8 +50,7 @@ const Footer = () => {
             </Slide>
           </div>
         </div>
-        <div className="profiles">
-        </div>
+        <div className="profiles"></div>
         <Fade>
           <ArrowUp onClick={scrollUp}>
             <AiOutlineArrowUp />
@@ -59,7 +58,9 @@ const Footer = () => {
         </Fade>
       </Profile>
       <Logo>
-        <span className='green'><FaDev/></span>
+        <span className="green">
+          <FaDev />
+        </span>
         <h1>Portfolio</h1>
       </Logo>
     </Container>
@@ -125,7 +126,7 @@ const Profile = styled.div`
 
   .profiles {
     h1 {
-      color: #0096FF;
+      color: #0096ff;
       font-size: 1.2rem;
       padding: 1rem 0;
     }
@@ -161,7 +162,7 @@ const Profile = styled.div`
   }
 `;
 const ArrowUp = styled.div`
-  width: 50px;      // or whatever size you want
+  width: 50px; // or whatever size you want
   height: 50px;
   background: #01be96;
   border-radius: 50%;
@@ -186,12 +187,12 @@ const Logo = styled.div`
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  span{
-      font-size: 1.8rem;
+  span {
+    font-size: 1.8rem;
   }
 
-  h1{
-      font-weight: 600;
-      font-size: 1.2rem;
+  h1 {
+    font-weight: 600;
+    font-size: 1.2rem;
   }
-`
+`;
