@@ -11,9 +11,9 @@ const data = [
     name: 'Resume (Vue.js)',
   },
   {
-    img: '/assets/images/Canva-resume.png',
-    link: 'https://www.canva.com/design/DAFs9NoYrD4/zVIhkaQ9nuw0LtP1ukV5dw/edit?utm_content=DAFs9NoYrD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton',
-    name: 'Canva Resume',
+    img: '/assets/images/blog.png',
+    link: 'https://dericksblogs.netlify.app/',
+    name: 'Blog (Vue.js & Java)',
   },
   {
     img: '/assets/images/Record-site.png',
