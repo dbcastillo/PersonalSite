@@ -35,7 +35,7 @@ const ProfComponent = () => {
             <div className="social-icons">
               <span>
                 <a
-                  href="https://www.canva.com/design/DAFs9NoYrD4/zVIhkaQ9nuw0LtP1ukV5dw/edit?utm_content=DAFs9NoYrD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                  href="https://www.canva.com/design/DAFy8aBXChM/eceAFEvX-wEZJ7Z2QjaFtQ/view?utm_content=DAFy8aBXChM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5e1fe5f026"
                   target="_blank"
                   rel="noreferrer"
                 >

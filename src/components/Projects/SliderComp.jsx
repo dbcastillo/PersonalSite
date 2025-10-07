@@ -8,17 +8,17 @@ const data = [
   {
     img: '/assets/images/Resume-image.png',
     link: 'https://derickresume.netlify.app/',
-    name: 'Vue.js Resume',
-  },
-  {
-    img: '/assets/images/Blog-image.png',
-    link: 'https://dericksblogs.netlify.app/',
-    name: 'Blog Site',
+    name: 'Resume (Vue.js)',
   },
   {
     img: '/assets/images/Canva-resume.png',
     link: 'https://www.canva.com/design/DAFs9NoYrD4/zVIhkaQ9nuw0LtP1ukV5dw/edit?utm_content=DAFs9NoYrD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton',
     name: 'Canva Resume',
+  },
+  {
+    img: '/assets/images/Record-site.png',
+    link: 'https://record-site-1.netlify.app/',
+    name: 'Record Site (React.js)',
   },
 ];
 
